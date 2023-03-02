@@ -1,5 +1,5 @@
 body {
-font-family: "roboto";
+font-family: "Roboto", sans-serif;
 background-color #FFFFFF;
 color: #2E2F42;
 }
@@ -11,22 +11,22 @@ text-decoration: none;
 ul {
   list-style: none;
 }
- 
+
 /* Хедер */
 
-.header-list .link {
+.subject-list .link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
 letter-spacing: 0.02em;
 }
 
-.header-list:hover,
+.subject-list:hover,
 .header-list:focus{
 color: #404BBF;
 }
 
-.header-address {
+.subject-address {
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -36,12 +36,12 @@ color: #434455;
 text-decoration: none;
 }
 
-.header-address:hover, 
-.header-address:focus{
+.subject-address:hover, 
+.subject-address:focus{
 color: #404BBF;
 }
 
-.header-logo {
+.subject-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -54,7 +54,7 @@ color: #404BBF;
   color: #4d5ae5;
 }
 
-.header-logo span {
+.subject-logo span {
   font-size: 18px;
   line-height: 1,3px;
   color: #2E2F42;
@@ -74,26 +74,45 @@ color: #FFFFFF;
 .heading-btn{
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 color: #ffffff;
 cursor: pointer;
-
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+padding: 16px 32px;
 }
+
 .heading-btn:hover,
 .heading-btn:focus{
 background: #404BBF
 }
 
-.prtfl-btn{
-cursor: pointer;
+.aside-btn{
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 78px;
+height: 48px;
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+flex: none;
+order: 2;
+flex-grow: 0;
+color: #4D5AE5;
+
 }
 
-.prtfl-btn .button:hover,
-.prtfl-btn .button:focus{
-background-color: #404BBF;
+.aside-btn:hover,
+.aside-btn:focus{
+background: #404BBF;
+color: #FFFFFF;
+
 }
-
-
 
 .headline {
 font-weight: 700;
@@ -122,7 +141,7 @@ color: #2E2F42;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,16px;
+  line-height: 1,16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -135,7 +154,7 @@ color: #2E2F42;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,16px;
+  line-height: 1,16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -143,9 +162,9 @@ color: #2E2F42;
   color: #f4f4fd;
 }
 
-.ftr{
+.footer{
 background: #2E2F42;
 }
-.text-ftr {
+.footer-text {
   color: #E7E9FC;
 }
