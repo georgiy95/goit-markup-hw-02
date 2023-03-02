@@ -77,8 +77,8 @@ background: #2E2F42;
 font-weight: 700;
 text-align: center;
 font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
+line-height: 1.5;
+letter-spacing: 0.04em;
 color: #FFFFFF;
 }
 
@@ -169,8 +169,8 @@ flex-grow: 0;
 .subtitle-name{
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
-line-height: 1.2 ;
+font-size: 36px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -193,11 +193,11 @@ flex-grow: 0;
 /* Футер */
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,16;
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -205,7 +205,7 @@ flex-grow: 0;
   color: #4d5ae5;
 }
 
-.footer-logo span {
+.footer-logo .span {
  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
