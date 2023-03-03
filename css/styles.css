@@ -18,23 +18,27 @@ ul {
   list-style: none;
 }
 
-.header-studio .link {
+.header .list {
+  list-style: none;
+}
+
+.header-studio-link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
   text-decoration: none;
   color: #2e2f42;
 }
 
-.header-studio .link:hover,
-.header-studio .link:focus {
+.header-studio-link:hover,
+.header-studio-link:focus {
   color: #404bbf;
 }
 
-.header-portfolio .link {
+.header-portfolio-link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -45,12 +49,12 @@ ul {
   color: #2e2f42;
 }
 
-.header-portfolio .link:hover,
-.header-portfolio .link:focus {
+.header-portfolio-link:hover,
+.header-portfolio-link:focus {
   color: #404bbf;
 }
 
-.header-contacts .link {
+.header-contacts-link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -61,8 +65,8 @@ ul {
   color: #2e2f42;
 }
 
-.header-contacts .link:hover,
-.header-contacts .link:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
   color: #404bbf;
 }
 
