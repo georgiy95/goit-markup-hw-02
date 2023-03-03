@@ -27,7 +27,7 @@ ul {
   text-decoration: none;
 }
 
-.studio .link {
+.header-studio {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -38,40 +38,8 @@ ul {
   color: #2e2f42;
 }
 
-.studio .link:hover,
-.studio .link:focus {
-  color: #404bbf;
-}
-
-.portfolio .link {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  list-style: none;
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-.portfolio .link:hover,
-.portfolio .link:focus {
-  color: #404bbf;
-}
-
-.contacts-link {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  list-style: none;
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
+.header-studio:hover,
+.header-studio:focus {
   color: #404bbf;
 }
 
