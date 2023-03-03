@@ -276,6 +276,7 @@ ul {
   height: 260px;
   background: url(man-with-laptop-presenting-something.jpg);
   mix-blend-mode: normal;
+  letter-spacing: 0.02em;
   flex: none;
   order: 0;
   flex-grow: 0;
