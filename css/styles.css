@@ -1,5 +1,5 @@
 .body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -230,6 +230,25 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.main-list-link {
+  text-decoration: none;
+}
+
+.main-list-banking {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main-list-app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .main-photo .list {
