@@ -18,7 +18,7 @@ ul {
   list-style: none;
 }
 
-.header-studio .link {
+.header .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -34,43 +34,11 @@ ul {
   color: #404bbf;
 }
 
-.header-portfolio .link {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 0.02em;
-  list-style: none;
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-.header-portfolio .link:hover,
-.header-portfolio .link:focus {
-  color: #404bbf;
-}
-
-.header-contacts .link {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 0.02em;
-  list-style: none;
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-.header-contacts .link:hover,
-.header-contacts .link:focus {
-  color: #404bbf;
-}
-
 .address .list {
   font-style: normal;
 }
 
-.address-list-mail {
+.address-list .link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -80,23 +48,8 @@ ul {
   text-decoration: none;
 }
 
-.address-list-mail:hover,
-.address-list-mail:focus {
-  color: #404bbf;
-}
-
-.address-list-tel {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.address-list-tel:hover,
-.address-list-tel:focus {
+.address-list .link:hover,
+.address-list .link:focus {
   color: #404bbf;
 }
 
