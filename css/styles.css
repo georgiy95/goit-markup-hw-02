@@ -26,6 +26,14 @@ ul {
   text-decoration: none;
 }
 
+.header-portfolio-link link {
+  text-decoration: none;
+}
+
+.header-contacts-link link {
+  text-decoration: none;
+}
+
 .header-studio-link {
   list-style: none;
   font-weight: 500;
