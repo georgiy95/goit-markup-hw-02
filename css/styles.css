@@ -18,7 +18,7 @@ ul {
   list-style: none;
 }
 
-.header-link {
+.header-studio .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -29,16 +29,44 @@ ul {
   color: #2e2f42;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-studio .link:hover,
+.header-studio .link:focus {
   color: #404bbf;
 }
 
-.address .list {
-  font-style: normal;
+.header-portfolio .link {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  list-style: none;
+  text-decoration: none;
+  color: #2e2f42;
 }
 
-.address-link {
+.header-portfolio .link:hover,
+.header-portfolio .link:focus {
+  color: #404bbf;
+}
+
+.header-contacts .link {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  list-style: none;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: #404bbf;
+}
+
+.address-list-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -48,14 +76,28 @@ ul {
   text-decoration: none;
 }
 
-.address-link:hover,
-.address-link:focus {
+.address-list-mail:hover,
+.address-list-mail:focus {
+  color: #404bbf;
+}
+
+.address-list-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.address-list-tel:hover,
+.address-list-tel:focus {
   color: #404bbf;
 }
 
 .header-logo {
-  font-family: "raleway", sans-serif;
-  text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
