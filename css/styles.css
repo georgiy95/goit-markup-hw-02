@@ -1,4 +1,4 @@
-body {
+.body {
 font-family: "Roboto", sans-serif;
 background-color #FFFFFF;
 color: #434455;
@@ -9,24 +9,65 @@ text-decoration: none;
 }
 
 ul {
-  list-style: none;
+list-style: none;
 }
+
 
 /* Хедер */
 
-.header-list .link {
+.header-list{
+list-style: none
+}
+
+.header-link-studio {
+list-style: none;
 font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
 letter-spacing: 0.02em;
+list-style: none;
+text-decoration: none;
+color: #2e2f42;
 }
 
-.header-list:hover,
-.header-list:focus{
+.header-link-studio:hover,
+.header-link-studio:focus{
 color: #404BBF;
 }
 
-.header-address {
+.header-link-portfolio {
+list-style: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+list-style: none;
+text-decoration: none;
+color: #2e2f42;
+}
+
+.header-link-portfolio:hover,
+.header-link-portfolio:focus{
+color: #404BBF;
+}
+
+.header-link-contacts {
+list-style: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+list-style: none;
+text-decoration: none;
+color: #2e2f42;
+}
+
+.header-link-contacts:hover,
+.header-link-contacts:focus{
+color: #404BBF;
+}
+
+.address-list-mail {
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -36,8 +77,23 @@ color: #434455;
 text-decoration: none;
 }
 
-.header-address:hover, 
-.header-address:focus{
+.address-list-mail:hover, 
+.address-list-mail:focus{
+color: #404BBF;
+}
+
+.address-list-tel {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-decoration: none;
+}
+
+.address-list-tel:hover, 
+.address-list-tel:focus{
 color: #404BBF;
 }
 
@@ -59,6 +115,7 @@ color: #404BBF;
   line-height: 1,3px;
   color: #2E2F42;
   }
+
 
 /* Головне меню */
 
@@ -85,10 +142,10 @@ color: #FFFFFF;
 .heading-btn{
 font-family: "Roboto", sans-serif;
 background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.15);
 color: #ffffff;
 cursor: pointer;
-line-height: 1.5
+line-height: 1.5;
 letter-spacing: 0.04em;
 font-style: normal;
 font-weight: 500;
@@ -145,8 +202,8 @@ color: #2E2F42;
 
 .subtitle{
 font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+font-size: 36px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -169,8 +226,8 @@ flex-grow: 0;
 .subtitle-name{
 font-style: normal;
 font-weight: 500;
-font-size: 36px;
-line-height: 1.11;
+font-size: 20px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -205,7 +262,7 @@ flex-grow: 0;
   color: #4d5ae5;
 }
 
-.footer-logo .span {
+.footer-logo-studio {
  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -218,8 +275,12 @@ flex-grow: 0;
   color: #f4f4fd;
 }
 
+.footer-studio{
+  color:#f4f4fd;
+}
+
 .footer{
-background: #2E2F42;
+background:#2E2F42;
 }
 .footer-text {
   color: #E7E9FC;
