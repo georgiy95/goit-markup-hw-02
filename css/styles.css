@@ -39,6 +39,14 @@ ul {
   color: #404bbf;
 }
 
+.link {
+  text-decoration: none;
+}
+.list .link:hover,
+.list .link:focus {
+  color: var(--pressed-state-color);
+}
+
 .address-list {
   font-style: normal;
 }
