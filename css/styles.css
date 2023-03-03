@@ -18,7 +18,7 @@ ul {
   list-style: none;
 }
 
-.header .link {
+.header-link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -29,8 +29,8 @@ ul {
   color: #2e2f42;
 }
 
-.header-studio .link:hover,
-.header-studio .link:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
 
@@ -38,7 +38,7 @@ ul {
   font-style: normal;
 }
 
-.address-list .link {
+.address-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -48,13 +48,14 @@ ul {
   text-decoration: none;
 }
 
-.address-list .link:hover,
-.address-list .link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "raleway", sans-serif;
+  text-decoration: none;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
