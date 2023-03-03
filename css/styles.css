@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .link {
@@ -207,7 +208,6 @@ ul {
 }
 
 .headline {
-  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
