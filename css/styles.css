@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -14,11 +14,11 @@ ul {
 
 /* Хедер */
 
-.header-list {
+.header {
   list-style: none;
 }
 
-.header-link-studio {
+.header-studio .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -29,12 +29,12 @@ ul {
   color: #2e2f42;
 }
 
-.header-link-studio:hover,
-.header-link-studio:focus {
+.header-studio .link:hover,
+.header-studio .link:focus {
   color: #404bbf;
 }
 
-.header-link-portfolio {
+.header-studio .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -45,12 +45,12 @@ ul {
   color: #2e2f42;
 }
 
-.header-link-portfolio:hover,
-.header-link-portfolio:focus {
+.header-studio .link:hover,
+.header-studio .link:focus {
   color: #404bbf;
 }
 
-.header-link-contacts {
+.header-studio .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -61,8 +61,8 @@ ul {
   color: #2e2f42;
 }
 
-.header-link-contacts:hover,
-.header-link-contacts:focus {
+.header-studio .link:hover,
+.header-studio .link:focus {
   color: #404bbf;
 }
 
