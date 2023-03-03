@@ -34,7 +34,7 @@ ul {
   color: #404bbf;
 }
 
-.header-studio .link {
+.header-portfolio .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -45,12 +45,12 @@ ul {
   color: #2e2f42;
 }
 
-.header-studio .link:hover,
-.header-studio .link:focus {
+.header-portfolio .link:hover,
+.header-portfolio .link:focus {
   color: #404bbf;
 }
 
-.header-studio .link {
+.header-contacts .link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -61,9 +61,13 @@ ul {
   color: #2e2f42;
 }
 
-.header-studio .link:hover,
-.header-studio .link:focus {
+.header-contacts .link:hover,
+.header-contacts .link:focus {
   color: #404bbf;
+}
+
+.address .list {
+  font-style: normal;
 }
 
 .address-list-mail {
