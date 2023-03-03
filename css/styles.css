@@ -5,6 +5,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.link {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -37,14 +41,6 @@ ul {
 .link:hover,
 .link:focus {
   color: #404bbf;
-}
-
-.link {
-  text-decoration: none;
-}
-.list .link:hover,
-.list .link:focus {
-  color: var(--pressed-state-color);
 }
 
 .address-list {
