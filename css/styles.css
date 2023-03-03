@@ -27,7 +27,7 @@ ul {
   text-decoration: none;
 }
 
-.header-studio-link {
+.studio-link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -38,8 +38,8 @@ ul {
   color: #2e2f42;
 }
 
-.header-studio-link:hover,
-.header-studio-link:focus {
+.studio-link:hover,
+.studio-link:focus {
   color: #404bbf;
 }
 
