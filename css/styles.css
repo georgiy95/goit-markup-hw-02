@@ -47,7 +47,7 @@ ul {
   font-style: normal;
 }
 
-.address-list-mail {
+.address-mail .link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -57,23 +57,8 @@ ul {
   text-decoration: none;
 }
 
-.address-list-mail:hover,
-.address-list-mail:focus {
-  color: #404bbf;
-}
-
-.address-list-tel {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.address-list-tel:hover,
-.address-list-tel:focus {
+.address-mail .link:hover,
+.address-mail .link:focus {
   color: #404bbf;
 }
 
