@@ -43,11 +43,7 @@ ul {
   color: #404bbf;
 }
 
-.address-list {
-  font-style: normal;
-}
-
-.address-mail .link {
+.address .link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -57,8 +53,8 @@ ul {
   text-decoration: none;
 }
 
-.address-mail .link:hover,
-.address-mail .link:focus {
+.address .link:hover,
+.address .link:focus {
   color: #404bbf;
 }
 
