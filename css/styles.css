@@ -43,6 +43,10 @@ ul {
   color: #404bbf;
 }
 
+.address-list {
+  font-style: normal;
+}
+
 .address .link {
   font-style: normal;
   font-weight: 400;
