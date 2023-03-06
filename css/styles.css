@@ -139,6 +139,18 @@ ul {
   color: #ffffff;
 }
 
+.hero-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.hero-paragraph {
+  line-height: 1.5;
+}
+
 .headline {
   font-weight: 700;
   font-size: 36px;
